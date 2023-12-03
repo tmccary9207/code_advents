@@ -25,3 +25,12 @@ is the same just python-ized. Easy enough.
 
 リデュース形式のソリューションをつかう。Python3の `functools` から `reduce` をインポートしました。タイプスクリプトのようなラムダー式
 関数を使う。
+
+## RUBY 3
+
+This was a weird one. I used reducer style again but with `File.read` there are extra chars in the string and
+they are not newlines or line feeds. So I bit the bullet and just put a `case` instead of searching the net
+for hours.
+
+リデュース形式を使ったがロジックはちょっと違います。ルビー3は `File.read` の返す値でニューライン以外・見えない文字がある。色々試したが
+解決方法見つかれなかった。 `case` を使った。
