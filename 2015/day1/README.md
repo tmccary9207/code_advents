@@ -17,3 +17,11 @@ input.
 
 このチャンレンジでリデュース形式のソリューションを使う。インプット文字列を１文字でスプリットしてそしてその配列をリデュースする。
 リデュースは `0` で始める値にコールしてそしてラムダー式関数でインプットから増える・下げる。
+
+## PYTHON 3
+
+I use the reducer solution again. Python3's `functools` contains `reduce` so I import that. The lambda function
+is the same just python-ized. Easy enough.
+
+リデュース形式のソリューションをつかう。Python3の `functools` から `reduce` をインポートしました。タイプスクリプトのようなラムダー式
+関数を使う。
