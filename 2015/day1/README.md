@@ -34,3 +34,9 @@ for hours.
 
 リデュース形式を使ったがロジックはちょっと違います。ルビー3は `File.read` の返す値でニューライン以外・見えない文字がある。色々試したが
 解決方法見つかれなかった。 `case` を使った。
+
+## GO
+
+I don't write much Go but hopefully I'll get better at it over this AoC. Anyways, Go doesn't really have a reduce function built in but you can make one with generics it seems. So, the only option is to iterate over the string character by character while mutating the tally. This is the classic way of doing this.
+
+Go言語をあんまり書いてないですがこのAoC中もっと書くと思います。Go言語は同じのリデュース関数がないです（自分でつくる必要があります）。一つのオプション残ってます、1文字1文字で合計を計算する。
