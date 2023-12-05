@@ -40,3 +40,15 @@ for hours.
 I don't write much Go but hopefully I'll get better at it over this AoC. Anyways, Go doesn't really have a reduce function built in but you can make one with generics it seems. So, the only option is to iterate over the string character by character while mutating the tally. This is the classic way of doing this.
 
 Go言語をあんまり書いてないですがこのAoC中もっと書くと思います。Go言語は同じのリデュース関数がないです（自分でつくる必要があります）。一つのオプション残ってます、1文字1文字で合計を計算する。
+
+## RUST
+
+I also don't write much Rust. Thankfully, Rust does have a reduce function in the form of fold which allows you to set an initial value. Reduce in Rust doesn't take an initial value so fold it is. This was relatively easier than I had imagined.
+
+Rust言語もあんまり書いてないです。Rustはリデュース関数ありけどFoldは最初値を受け取るのでそれを使う。思いより簡単でした。
+
+## ELIXIR
+
+Haven't tried Elixir much but I thought I'd try it. Being a functional first language it has a reduce function so I use that.
+
+Elixir言語試したことがないから試すと思った。ファンクショナルファースト言語のでリデュース関数を使った。
