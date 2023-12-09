@@ -52,3 +52,7 @@ Rust言語もあんまり書いてないです。Rustはリデュース関数あ
 Haven't tried Elixir much but I thought I'd try it. Being a functional first language it has a reduce function so I use that.
 
 Elixir言語試したことがないから試すと思った。ファンクショナルファースト言語のでリデュース関数を使った。
+
+## CLOJURE
+
+Finally some parens! Clojure does the reducer deal and it works like a champ. I used Lein for ease of production here.
