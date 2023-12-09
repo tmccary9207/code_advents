@@ -17,6 +17,9 @@ Since the file ends with invalid input a blank string because the input is one p
 
 ## PYTHON 3
 
+The python3 code is very much like the Deno/TypeScript code. The only real difference are some comprehensions.
+
+パイソン3は大分タイプスクリプトとそっくりです。差はComprehensionを使った。
 
 ## RUBY 3
 

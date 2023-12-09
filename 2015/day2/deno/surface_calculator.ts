@@ -17,7 +17,7 @@ function surfaceAreaWithSlack(input: string) {
     // input it is advisable to check for bad input.
     const [length, width, height] = input.split('x')
         .map(x => parseInt(x)) as [number, number, number];
-    const sides = [(length * width), (width * height), (height * length)]
+    const sides = [(length * width), (width * height), (height * length)];
     return surfaceArea(sides) + Math.min(...sides);
 }
 
