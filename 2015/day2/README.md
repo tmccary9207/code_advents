@@ -23,6 +23,9 @@ The python3 code is very much like the Deno/TypeScript code. The only real diffe
 
 ## RUBY 3
 
+More of the same here. The chaining looks better than Python3 to me.
+
+ルビーはパイソンとタイプスクリプトそっくりです。オブジェクトメソッドチェインはきれいと思います。
 
 ## GO
 
