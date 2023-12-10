@@ -29,6 +29,9 @@ More of the same here. The chaining looks better than Python3 to me.
 
 ## GO
 
+Go is pretty similar but requires the usual reference passes and error checking.
+
+Go言語もそっくりですがレファレンスパスとエラーチェック必要でした。
 
 ## RUST
 
