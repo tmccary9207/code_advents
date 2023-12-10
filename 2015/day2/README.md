@@ -47,3 +47,6 @@ Elixirは楽しかった、パイプ形式はIntermediate値を任せる。
 
 ## CLOJURE
 
+The clojure solution looks good. I used some threading macros for beauty (in the eye of the beholder). As simple as I could think to do it right now.
+
+Clojureのソリューションはよいと思います。スレーマクロをつかった。これはわかりやすいとおもいます。
