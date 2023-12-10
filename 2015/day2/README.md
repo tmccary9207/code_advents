@@ -35,6 +35,9 @@ Go言語もそっくりですがレファレンスパスとエラーチェック
 
 ## RUST
 
+Rust was a bit harder than I was expecting. Most of this was due to the guarantees that Rust enforces.
+
+Rust版はちょっと難しいでした。大分は ~expect~ / ~unwrap~ の保証です。
 
 ## ELIXIR
 
