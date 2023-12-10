@@ -41,6 +41,9 @@ Rust版はちょっと難しいでした。大分は ~expect~ / ~unwrap~ の保�
 
 ## ELIXIR
 
+Elixir is such a pleasure to use with pipes taking care of the intermediate values.
+
+Elixirは楽しかった、パイプ形式はIntermediate値を任せる。
 
 ## CLOJURE
 
