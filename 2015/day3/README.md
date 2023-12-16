@@ -25,6 +25,9 @@ Pretty much the same as the Deno/TypeScript version. Not much interesting going 
 
 ## RUBY 3
 
+Pretty much the same as typescript and python3. A simple implementation.
+
+タイプスクリプトのように見えそうです。あんまり違いません。
 
 ## GO
 
