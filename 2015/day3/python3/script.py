@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 
-from functools import reduce
-
 """
 Get the new location for Santa.
 """
