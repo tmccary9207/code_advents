@@ -31,6 +31,9 @@ Pretty much the same as typescript and python3. A simple implementation.
 
 ## GO
 
+Like the others except the Set implementation comes from a package external to Golang.
+
+他の言語のようにしましたが今回外部パッケージを使いました（Set）。
 
 ## RUST
 
