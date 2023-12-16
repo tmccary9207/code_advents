@@ -19,6 +19,9 @@ ForEachの命令で関数から新規位置を計算する。新規位置をSet�
 
 ## PYTHON 3
 
+Pretty much the same as the Deno/TypeScript version. Not much interesting going on.
+
+タイプスクリプトのように見えそうです。あんまり違いません。
 
 ## RUBY 3
 
