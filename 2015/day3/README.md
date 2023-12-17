@@ -37,6 +37,9 @@ Like the others except the Set implementation comes from a package external to G
 
 ## RUST
 
+Pretty similar to the others. Not much to say.
+
+他の言語のようにしました。
 
 ## ELIXIR
 
