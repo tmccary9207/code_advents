@@ -14,12 +14,15 @@
 (defn take-directions
   "Take in directions from an elf and returns the unique number of houses visited."
   [directions]
-  (count (set (first (reduce
-                (fn [[visited-locations current-location] direction]
-                  (let [visited-location (new-location current-location direction)]
-                    (list (conj visited-locations visited-location) visited-location)))
-                (list (list (list 0 0)) (list 0 0))
-                directions)))))
+  (-> (reduce
+       (fn [[visited-locations current-location] direction]
+         (let [visited-location (new-location current-location direction)]
+           (list (conj visited-locations visited-location) visited-location)))
+       (list (list (list 0 0)) (list 0 0))
+       directions)
+      first
+      set
+      count))
 
 (defn -main
   "I don't do a whole lot ... yet."
