@@ -49,3 +49,7 @@ Similar solution but a more compilicated reducer pattern.
 
 ## CLOJURE
 
+Not the cleanest or simpilist solution in my opinion. `conj` visited locations and the newest location in the reduce then turn the visited locations into a set. I'm sure there is a more simple looking solution I just can't imagine one at the moment.
+
+一番キレイ・わかりやすいではないと思います。 `conj` を行ったところリストに追加してそしてReduceの後にリストをSETに変換する。そのSETのカウントを返す。もっと簡単な方法あると思いますがClojureの詳しくないのでいつかこの問題をRevisitする。
+
