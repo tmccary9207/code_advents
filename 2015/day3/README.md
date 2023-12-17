@@ -43,6 +43,9 @@ Pretty similar to the others. Not much to say.
 
 ## ELIXIR
 
+Similar solution but a more compilicated reducer pattern.
+
+他の言語そっくりですがReduce処理はちょっとわかりにくいです。
 
 ## CLOJURE
 
