@@ -28,6 +28,9 @@ More of the same here. Except, unlike the previous two, there isn't an overflow 
 
 ## GO
 
+Same logic different language. Looks a lot like the python3 in terms of bytes to digest string.
+
+別言語ですが同じみたいです。大分パイソン３のようにバイトから文字列出力する。
 
 ## RUST
 
