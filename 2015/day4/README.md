@@ -34,6 +34,9 @@ Same logic different language. Looks a lot like the python3 in terms of bytes to
 
 ## RUST
 
+Used some crates for the hashing. Aside from that same logic.
+
+別言語ですが同じみたいです。
 
 ## ELIXIR
 
