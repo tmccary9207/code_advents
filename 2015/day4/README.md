@@ -16,6 +16,9 @@ This challenge required some use of Deno.land modules. Had to try and read up on
 
 ## PYTHON 3
 
+A lot like the Typescript version. Better documentation but Python3 requires a byte string for the digest module.
+
+タイプスクリプトのようにしました。ドキュメントはもっとよいと思います。でもPython3はバイトストリング渡す必要です。
 
 ## RUBY 3
 
