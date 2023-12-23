@@ -22,6 +22,9 @@ A lot like the Typescript version. Better documentation but Python3 requires a b
 
 ## RUBY 3
 
+More of the same here. Except, unlike the previous two, there isn't an overflow check or maximum used. Ruby doesn't have such a concept it seems. I wouldn't code like this in production obviously but odd in any case.
+
+タイプスクリプトのようにしましたが今回オーバーフロー・マックス数字チェックがないです。ルビーはマックス数字がありません（無限数字がある）。本番でこのようなコードを使いません。
 
 ## GO
 
