@@ -28,6 +28,9 @@ I did the function combo of Typescript. However, Python3's regex functions "feel
 
 ## RUBY 3
 
+Same function combo. However, Ruby's regex for the has three or more vowels turns out to be a string scan instead of regex. Aside from that it's pretty much the same.
+
+タイプスクリプトようにしました。でも３つのVowel処理は文字列オブジェクトのScanを実行する。それ以外大体同じです。
 
 ## GO
 
