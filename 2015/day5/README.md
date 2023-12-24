@@ -22,6 +22,9 @@ I fought my temptation to make this just a regex as that would be harder to unde
 
 ## PYTHON 3
 
+I did the function combo of Typescript. However, Python3's regex functions "feel" different to me. Anyways, it runs super fast.
+
+タイプスクリプトようにしました。パイソン３のREGEX関数は違うのように感じる（ご意見）。早え〜！
 
 ## RUBY 3
 
