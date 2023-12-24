@@ -46,4 +46,7 @@ This one is a tad different. Erlang VM has a MD5 function and a readable way to 
 
 ## CLOJURE
 
+A little different as well. I use a clojure library for MD5 hashing. However, Clojure has infinite lazy sequences thanks to `range` and `first` lazily goes through the sequence and stops at the first truthy value.
+
+ちょっと違います。MD5ハッシュライブラリーを使う。Clojureは永遠のLazy Sequenceがあるので `first + range` 最初あっている値を返す。
 
