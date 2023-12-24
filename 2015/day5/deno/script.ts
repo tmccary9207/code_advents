@@ -4,4 +4,4 @@ const text = await Deno.readTextFile('../myinput.txt');
 
 const numberOfNiceStrings = text.split('\n').filter(isStringNice).length;
 
-console.log(`${numberOfNiceStrings} of nice strings.`);
+console.log(`${numberOfNiceStrings} nice strings.`);
