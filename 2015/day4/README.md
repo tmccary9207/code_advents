@@ -40,6 +40,9 @@ Used some crates for the hashing. Aside from that same logic.
 
 ## ELIXIR
 
+This one is a tad different. Erlang VM has a MD5 function and a readable way to turn it into a hexadecimal string. The real logic starts with a recursive function call. I tried to figure out an infinite stream solution with pipes but that wasn't for me to just read. So, I went with recursive function calling.
+
+ちょっと違います。ErlangVMはMD5処理あるそして簡単にパイプするとHexadecimal文字列出力する。今回の大事所はRecursive関数コールです。永遠数字ストーリムソリューションを試したが簡単に読み込むできないでした。その理由でRecursiveコール種類を使う。
 
 ## CLOJURE
 
