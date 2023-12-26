@@ -46,6 +46,9 @@ Go言語のように完全REGEXサポートなしですができました。
 
 ## ELIXIR
 
+Finally full PCRE regex compatibility again! Easy as pie.
+
+PCREのRegexサポートは最高〜！楽勝だ！
 
 ## CLOJURE
 
