@@ -5,6 +5,11 @@
 3. After calculating surface area add slack by using the smallest of the three dimensions above.
 4. Sum up all calulated surface areas with their respective slacks.
 
+1. プレセントのサイズは `長さｘ広さｘ高さ` でエンコードされた文字列。
+2. サーフィスエリアの計算は `２＊長さ＊広さ + ２＊広さ＊高さ + ２＊高さ＊長さ`。
+3. 計算後でスラックを追加して必要です。スラックは一番小さい（広さ、長さ、高さ）。
+4. 全プレセントの２＋３の合計は答えです。
+
 ## MY ANSWER?
 
 My challenge input ends up with `1606483` as the answer.
