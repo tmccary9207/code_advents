@@ -40,6 +40,9 @@ A little more difficult. Go doesn't support back reference Regexes so a walk run
 
 ## RUST
 
+This is similar to Go in that the regex isn't feature full here for performance. Same strategy and just as quick.
+
+Go言語のように完全REGEXサポートなしですができました。
 
 ## ELIXIR
 
