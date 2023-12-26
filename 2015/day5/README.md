@@ -34,6 +34,9 @@ Same function combo. However, Ruby's regex for the has three or more vowels turn
 
 ## GO
 
+A little more difficult. Go doesn't support back reference Regexes so a walk rune by rune is required. Aside from that it's the same.
+
+ちょっと難しいです。GO言語はRegexのReferenceをサポートしません（速度のために）。それ以外で同じです。
 
 ## RUST
 
