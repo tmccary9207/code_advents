@@ -52,4 +52,7 @@ PCREのRegexサポートは最高〜！楽勝だ！
 
 ## CLOJURE
 
+I'm limited to Java's regex compatibility but that's okay. Clojure returns a vector of matches or `nil` for regex methods. So casting to booleans with `nil?` and `some?` is easy. I did use truthy logic at first but the tests weren't good looking so I use the casting methods so the return values are what one would expect.
+
+JVMのClojureを使っているのでJAVAのREGEX対応のみです。マッチを実行するとマッチのベクター OR `nil` を返す。`nil?` + `some?` でタイプをブールリアンにキャストする。最初で `truthy` スタイルやったがテストは気持ち悪いので思い通りのBooleanを返すに修正しました。
 
