@@ -53,7 +53,7 @@ function translateInstructions(instructions: string): Instructions | null {
 }
 
 /**
- * Runs all the instructions then returns the number of lights left on.
+ * Runs all the instructions then returns the brightness of the light array.
  * @param {string} allInstructions Instructions separated by a new line.
  */
 function runInstructions(allInstructions: string): number {
