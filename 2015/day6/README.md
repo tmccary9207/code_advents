@@ -26,6 +26,9 @@ I use some Typescript Enums (some folks hate them because of performance) and an
 
 ## PYTHON 3
 
+I don't have the same typing as Typescript so I use a dictionary and the optional hinting. From there it is range and for loops. I learned that you can't cache a range in python3 and it be efficient. Everything else is the same.
+
+タイプスクリプトのようにタイプ同じできませんがオプションタイプとDictを使う。それからRangeとForループを使う。Rangeをキャッシュするは無理です。それ以外で同じです。
 
 ## RUBY 3
 
