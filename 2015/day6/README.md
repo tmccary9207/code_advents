@@ -8,6 +8,16 @@
 
 `543903` lights are on.
 
+## PART 2
+
+Things get a bit complicated. Toggle means add 2, turn on means add 1 and turn off means minus 1 (no negatives). After that, sum up the values of all lights.
+
+ちょっと難しいです。 `toggle` は２に足す。 `turn on` は１に足す。 `turn off` は１に減らす（マイナスは０に設定する）。最後に合計を返す。
+
+## MY ANSWER (PART 2)?
+
+`14687245` is the total brightness.
+
 ## DENO/TYPESCRIPT
 
 I use some Typescript Enums (some folks hate them because of performance) and an interface to keep myself coordinated. From there, the plan is to take each row of input and turn that into a set of instructions. In Javascript, creating a filled 2D array with arrays generated with `fill` creates references so the `from` with a lambda function that calls fill for uniqueness is required. After translating the instructions and creating an array I use a double loop to set the lights state. Lastly, I just loop through each row and column counting the ones that are on.
