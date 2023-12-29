@@ -159,7 +159,7 @@ def is_string_nice(datum: str) -> bool:
     return has_three_or_more_vowels(datum) and has_same_letter_pair(datum) and has_no_naughty_strings(datum)
 
 """
-Runs the script for day 3.
+Runs the script for day 5.
 """
 def main():
     with open('../myinput.txt', mode='r') as f:
