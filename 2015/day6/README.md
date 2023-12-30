@@ -32,6 +32,9 @@ I don't have the same typing as Typescript so I use a dictionary and the optiona
 
 ## RUBY 3
 
+This was a bit odd to me. Ruby shares the same 2D array creation rule as Javascript. Instead you need to pass a Proc that'll generate a new Array for each Array. I'm pretty sure some performance person says that is expected but how often does a solution require an array that is pre-filled with references to the same array? Aside from that the inline if else value setting is nice.
+
+ちょっと変と思います。ルビーは同じの２D配列の作成ルールがある（JS）。新規配列の後ろにProcを渡すそしてそれは新しいインスタンスを作成する。それ以外でインラインIFは良いです。
 
 ## GO
 
