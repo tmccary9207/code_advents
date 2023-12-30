@@ -38,6 +38,9 @@ This was a bit odd to me. Ruby shares the same 2D array creation rule as Javascr
 
 ## GO
 
+This is one of the first times I felt Go was too verbose but in a production environment it would be good. Instruction translating wasn't that bad just long. Making the array was nice because in Go the default for integers is zero. It runs pretty fast in my opinion.
+
+今回で面倒と思ったが本番ソフトで良いと思います。説明翻訳は悪くないです。配列作成は簡単です（Go言語数字の標準値は０）。スクリプト言語より早いです。
 
 ## RUST
 
