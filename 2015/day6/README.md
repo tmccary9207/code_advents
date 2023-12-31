@@ -44,6 +44,9 @@ This is one of the first times I felt Go was too verbose but in a production env
 
 ## RUST
 
+I used a 2D array crate for this challenge. Made the array creation easy for sure. The code looks the same except with matches and more ownership info. Doesn't seem to run as fast the Go version.
+
+２D配列クレートを使った。配列作成は簡単でした。大分同じですがオーナー情報がついた。Go言語より遅い感じる。
 
 ## ELIXIR
 
