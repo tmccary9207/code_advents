@@ -50,6 +50,9 @@ I used a 2D array crate for this challenge. Made the array creation easy for sur
 
 ## ELIXIR
 
+This is kind of challenging actually. Elixir is immutable and the only way to take this on is to simply return an updated map for each light in the selected rectangle. No real alternative and the performance isn't anything to get excited about.
+
+ちょっと難しいです。ElixirはImmutableので更新すると新しい値を返す必要。セレクトされた電球を一個一個更新は新規マップを作成する。パフォーマンスはOKと思います。でもElixirはこのような問題に弱いと思います（速さ）。
 
 ## CLOJURE
 
