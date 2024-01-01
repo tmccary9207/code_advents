@@ -56,4 +56,6 @@ This is kind of challenging actually. Elixir is immutable and the only way to ta
 
 ## CLOJURE
 
+This is more or less the same as the Elixir version. I wanted to keep the immutable style but obviously it would go faster with Java Arraylists.
 
+大分Elixirと同じです。ImmutableスタイルをキープしたいでしたがArrayListとかはもっと早いとおもいます。
