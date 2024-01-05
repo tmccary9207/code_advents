@@ -8,4 +8,4 @@ console.log(`Wire A's value is ${wireValue}.`);
 
 const overridenValue = runInstructions(text, "a", { wireLabel: "b", value: wireValue });
 
-console.log(`Wire A's value when overridden with ${wireValue} is ${overridenValue}.`);
+console.log(`Wire A's value when B is overridden with ${wireValue} is ${overridenValue}.`);
