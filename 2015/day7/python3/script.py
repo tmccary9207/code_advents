@@ -4,7 +4,7 @@ import re
 import typing
 
 """
-Translates a line of instructions into a instructions dictionary or None. 
+Translates a line of instructions into a instructions dictionary or None.
 """
 def translate_instructions(datum: str) -> typing.Optional[dict]:
     r"""
@@ -152,7 +152,7 @@ def is_instruction_doable(instruction: dict, wires: dict) -> bool:
     if 'source' in instruction:
         return instruction['source'] in wires
 
-    if 'logicLeft' not in instruction: 
+    if 'logicLeft' not in instruction:
         return instruction['rightNumber'] or (instruction['logicRight'] in wires)
 
     is_okay = instruction['leftNumber'] or (instruction['logicLeft'] in wires)
@@ -162,7 +162,7 @@ def is_instruction_doable(instruction: dict, wires: dict) -> bool:
     is_okay = instruction['rightNumber'] or (instruction['logicRight'] in wires)
 
     return is_okay
-    
+
 """
 Applies the instructions and sets the value to the wires.
 """
@@ -208,7 +208,7 @@ def apply_logic(instruction: dict, wires: dict):
         # ASSIGNMENT
         wires[instruction['wireLabel']] = wires[instruction['source']]
         return
-    if 'logicLeft' not in instruction: 
+    if 'logicLeft' not in instruction:
         # LOGIC NOT
         value = wires[instruction['logicRight']] if not instruction['rightNumber'] else int(instruction['logicRight'])
         wires[instruction['wireLabel']] = ~value & 0xFFFF
@@ -287,7 +287,7 @@ def run_instructions(datum: str, target_wire: str = "a", override: typing.Option
     while len(logic_instructions) > 0 and old_li_length != len(logic_instructions):
         old_li_length = len(logic_instructions)
         logic_instructions = list(filter(lambda x: filter_logic(x, wires), logic_instructions))
-    
+
     return wires[target_wire] if target_wire in wires else 0
 
 """
