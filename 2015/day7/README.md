@@ -8,7 +8,7 @@ This challenge is a key/value and logic gate application. `AND OR NOT RSHIFT LSH
 
 ```
 Wire A's value is 16076.
-Wire A's value when overridden with 16076 is 2797.
+Wire A's value when B is overridden with 16076 is 2797.
 ```
 
 ## DENO/TYPESCRIPT
@@ -18,6 +18,10 @@ This one was a bit tough for me. Javascript has 32 bit integers with the signed 
 ちょっと難しいと思います。JSは３２ビット数字を使っているので `& 0xFFFF` はそのサインビットを守る。ループで実行した命令をフィルターする。一番OptimalはRecursive計算ですがわかりやすいのために先に計算するは良いと思います。
 
 ## PYTHON 3
+
+The same logic but I got a more convention oriented and used logic that if something doesn't exist then it must be a certain type. Writing doctests in Python3 is a bit more difficult when it is a dict you are testing. Better to just set a variable and check equals than write the output.
+
+同じのロジックを使ったがConventionのように処理実行する。Python3のDoctestはDictのタイプでちょっと辛いです。Variableにキレイように書くそしてそのVariableをEqualにテストするは楽です。
 
 ## RUBY 3
 
