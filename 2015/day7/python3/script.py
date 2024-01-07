@@ -141,11 +141,11 @@ def is_instruction_doable(instruction: dict, wires: dict) -> bool:
     >>> is_instruction_doable({'wireLabel':'g','logicRight':'2','rightNumber':True,'logicLeft':'x','leftNumber':False,'logicOperator':'RSHIFT'}, {})
     False
 
-    Has wires and a logic instruction with value and a wire should be False.
+    Has wires and a logic instruction with value and a wire should be True.
     >>> is_instruction_doable({'wireLabel':'g','logicRight':'2','rightNumber':True,'logicLeft':'x','leftNumber':False,'logicOperator':'RSHIFT'}, {'x': 2})
     True
 
-    Has wires and a logic instruction with two wires should be False.
+    Has wires and a logic instruction with two wires should be True.
     >>> is_instruction_doable({'wireLabel':'g','logicRight':'y','rightNumber':False,'logicLeft':'x','leftNumber':False,'logicOperator':'RSHIFT'}, {'x': 2, 'y': 3})
     True
     """
