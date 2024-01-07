@@ -25,6 +25,10 @@ The same logic but I got a more convention oriented and used logic that if somet
 
 ## RUBY 3
 
+I decided to lean on hashes and more obvious naming. Don't know if it really made it more readable. For the while logic I used a flag of work having been done as a signal to go another round with the stop condition being that the value for the target wire was already found.
+
+今回ハッシュを使ってと読みやすいキー名に設定する決めた。本当に読みやすいかどうかわからないです。While文でProcの返す値を使った（ロジック・値設定したらも一回ループする）。パフォーマンスのためにもう目標Wireの値が設定したらループを止める。
+
 ## GO
 
 ## RUST
