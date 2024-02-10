@@ -31,6 +31,8 @@ I decided to lean on hashes and more obvious naming. Don't know if it really mad
 
 ## GO
 
+Go was a bit fun but way too verbose for my taste. The fact I finally got access to unsigned helps but when doing not requires an "AND" operation to turn off the most signifigant digit throwing off the calculation. Good exercise and plenty of tests. Just wish there was a native way in Go of handling co-rountines to run through the values parsed to speed up processing.
+
 ## RUST
 
 ## ELIXIR
