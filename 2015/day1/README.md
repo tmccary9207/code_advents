@@ -56,3 +56,7 @@ Elixir言語試したことがないから試すと思った。ファンクシ�
 ## CLOJURE
 
 Finally some parens! Clojure does the reducer deal and it works like a champ. I used Lein for ease of production here.
+
+## AWK
+
+This was too easy I think. Just have a call to gsub for the left paren count - the right paren count. Since the input is thrown away anyways this works out just fine. Good ol' CLI tools to the rescue.
