@@ -55,3 +55,7 @@ Elixirは楽しかった、パイプ形式はIntermediate値を任せる。
 The clojure solution looks good. I used some threading macros for beauty (in the eye of the beholder). As simple as I could think to do it right now.
 
 Clojureのソリューションはよいと思います。スレーマクロをつかった。これはわかりやすいとおもいます。
+
+## AWK
+
+This one was easy in Awk. Just separate by the x create, calculate the three sides, select the smallest. After that just add up all the sides and multiply by 2 then add in the slack. Toss that into the sum. Done. It's almost like this problem was made for Awk or Perl.
