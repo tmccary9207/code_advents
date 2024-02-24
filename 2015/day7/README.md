@@ -35,6 +35,10 @@ Go was a bit fun but way too verbose for my taste. The fact I finally got access
 
 ## RUST
 
+I think this is my best implementation so far. Types helped a bit but dealing with borrow checking was difficult. I think it works and runs as fast as I can make it with my current Rust experience.
+
+このインプレメンテションは僕の一番良いと思います。タイプチェックは便利ですけど借りるチェックは辛かった。ラスト経験比べるとこれは早いと思います。
+
 ## ELIXIR
 
 ## CLOJURE
