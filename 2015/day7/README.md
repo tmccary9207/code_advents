@@ -41,5 +41,7 @@ I think this is my best implementation so far. Types helped a bit but dealing wi
 
 ## ELIXIR
 
+I tried to do what I did in Rust with Elixir and it works pretty well.
+
 ## CLOJURE
 
