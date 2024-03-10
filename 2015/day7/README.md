@@ -45,3 +45,4 @@ I tried to do what I did in Rust with Elixir and it works pretty well.
 
 ## CLOJURE
 
+With the solution style of Elixr/Rust the implementation in Clojure was relatively straight forward. I dare say it reads easy and runs pretty good unless performance golfing is your thing.
