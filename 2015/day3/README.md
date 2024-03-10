@@ -53,3 +53,6 @@ Not the cleanest or simpilist solution in my opinion. `conj` visited locations a
 
 一番キレイ・わかりやすいではないと思います。 `conj` を行ったところリストに追加してそしてReduceの後にリストをSETに変換する。そのSETのカウントを返す。もっと簡単な方法あると思いますがClojureの詳しくないのでいつかこの問題をRevisitする。
 
+# AWK
+
+Another smashingly easy implementation in Awk. Just couple of variables and an array to set via string keys with a counting of the number of elements in the array at the end. It almost runs too fast.
