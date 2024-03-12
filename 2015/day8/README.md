@@ -25,6 +25,8 @@ This wasn't too difficult code wise. I used regexes and replaceAll to reduce cha
 
 ## PYTHON 3
 
+This wasn't difficult either. The regex counting style of the typescript version works across languages very well.
+
 ## RUBY 3
 
 ## GO
