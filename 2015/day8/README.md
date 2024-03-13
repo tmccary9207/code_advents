@@ -29,6 +29,8 @@ This wasn't difficult either. The regex counting style of the typescript version
 
 ## RUBY 3
 
+Another easy translation from the typescript version. However, the unit test has some strange artifacts to it that the script isn't affected by. Pretty sure it is down to how strings are escaped internally.
+
 ## GO
 
 ## RUST
