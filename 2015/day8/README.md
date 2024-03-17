@@ -33,6 +33,8 @@ Another easy translation from the typescript version. However, the unit test has
 
 ## GO
 
+As with Ruby and Python this was an easy translation. Nothing much else to say.
+
 ## RUST
 
 ## ELIXIR
