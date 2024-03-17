@@ -37,6 +37,8 @@ As with Ruby and Python this was an easy translation. Nothing much else to say.
 
 ## RUST
 
+As with the others a good algo saved the day.
+
 ## ELIXIR
 
 ## CLOJURE
