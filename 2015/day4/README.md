@@ -50,3 +50,6 @@ A little different as well. I use a clojure library for MD5 hashing. However, Cl
 
 ちょっと違います。MD5ハッシュライブラリーを使う。Clojureは永遠のLazy Sequenceがあるので `first + range` 最初あっている値を返す。
 
+## AWK
+
+Awk doesn't have a native MD5 hashing solution. The only way to handle this is to pipe out a command to the system userland. It takes some time to iterrate and get the answer.
