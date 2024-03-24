@@ -56,3 +56,6 @@ I'm limited to Java's regex compatibility but that's okay. Clojure returns a vec
 
 JVMのClojureを使っているのでJAVAのREGEX対応のみです。マッチを実行するとマッチのベクター OR `nil` を返す。`nil?` + `some?` でタイプをブールリアンにキャストする。最初で `truthy` スタイルやったがテストは気持ち悪いので思い通りのBooleanを返すに修正しました。
 
+## AWK
+
+Since Awk goes over every line I thought just use a complicated regex but Awk only supports ERE regex (not PCRE). That's fine, just string together regex expressions and use a quick and dirty function to check for a letter pair. Not bad.
