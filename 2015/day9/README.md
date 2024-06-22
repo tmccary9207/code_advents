@@ -45,3 +45,7 @@ where I have to test all possible starting locations.
 ## PYTHON3
 
 Same as Javascript but with a little bit of pythonic code.
+
+## RUBY
+
+Same as Javascript but ruby-esque (happiness intensifies).
