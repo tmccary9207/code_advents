@@ -41,3 +41,7 @@ Longest possible distance is: 898
 In Javascript this is an easy task I figure. The hard part was just trying
 to the Dijkstra algo enough that I could write it and apply it to a situation
 where I have to test all possible starting locations.
+
+## PYTHON3
+
+Same as Javascript but with a little bit of pythonic code.
