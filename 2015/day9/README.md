@@ -49,3 +49,9 @@ Same as Javascript but with a little bit of pythonic code.
 ## RUBY
 
 Same as Javascript but ruby-esque (happiness intensifies).
+
+## GOLANG
+
+Same implementation just Golang style. The iterative nature of the solution
+is very obvious in this version. I am sure there is some linked list logic
+solution avaiable to me that I didn't use but I just wanted what works.
