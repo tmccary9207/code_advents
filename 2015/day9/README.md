@@ -59,8 +59,7 @@ solution avaiable to me that I didn't use but I just wanted what works.
 ## RUST
 
 Same implementation but I did use a comparator function for so I wouldn't
-need to repeat it into a short and long function. However, I have to clone
-the hashmap (not 100% sure other solutions would be easier to do just to
-avoid a clone). Just string slices and at one point a `*` to remove some
-borrowing. Never had to do that in Rust before though I can say I have now.
-Not really the easiest up until now due to the borrow checker.
+need to repeat it into a short and long function. Just string slices and
+at one point a `*` to remove some borrowing. Never had to do that in Rust
+before though I can say I have now. Not really the easiest up until now
+due to the borrow checker.
