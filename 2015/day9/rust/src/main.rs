@@ -43,7 +43,7 @@ fn longest_comparator(a: i32, b: i32) -> bool {
 }
 
 fn get_x_route<'a>(
-    routes: HashMap<&'a str, HashMap<&'a str, i32>>,
+    routes: &HashMap<&'a str, HashMap<&'a str, i32>>,
     starting_value: i32,
     comparator: fn(i32, i32) -> bool,
 ) -> i32 {
@@ -98,8 +98,8 @@ fn main() {
     let text = fs::read_to_string("../myinput.txt").expect("Couldn't read in input file.");
     let routes = get_route_map(text.trim_end().split('\n').map(|x| line_to_parts(x)).collect::<Vec<_>>());
 
-    let shortest = get_x_route(routes.clone(), i32::MAX, shortest_comparator);
-    let longest = get_x_route(routes, 0, longest_comparator);
+    let shortest = get_x_route(&routes, i32::MAX, shortest_comparator);
+    let longest = get_x_route(&routes, 0, longest_comparator);
 
     println!("Shortest possible distance is: {}", shortest);
     println!("Longest possible distance is: {}", longest)
@@ -134,7 +134,7 @@ mod tests {
     #[test]
     fn test_get_x_route() {
         let shortest = get_x_route(
-            HashMap::from([
+            &HashMap::from([
                 ("Belfast", HashMap::from([("Dublin", 141), ("London", 518)])),
                 ("Dublin", HashMap::from([("Belfast", 141), ("London", 464)])),
                 ("London", HashMap::from([("Belfast", 518), ("Dublin", 464)])),
@@ -146,7 +146,7 @@ mod tests {
         assert_eq!(shortest, 605);
 
         let longest = get_x_route(
-            HashMap::from([
+            &HashMap::from([
                 ("Belfast", HashMap::from([("Dublin", 141), ("London", 518)])),
                 ("Dublin", HashMap::from([("Belfast", 141), ("London", 464)])),
                 ("London", HashMap::from([("Belfast", 518), ("Dublin", 464)])),
