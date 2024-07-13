@@ -63,3 +63,9 @@ need to repeat it into a short and long function. Just string slices and
 at one point a `*` to remove some borrowing. Never had to do that in Rust
 before though I can say I have now. Not really the easiest up until now
 due to the borrow checker.
+
+## Elixir
+
+No more simple for loop logic with local variables this time. A comparator
+and tail call recursive logic is required to get to the solution. This
+was a bit more work to get done mentally but it runs like greased lightning.
