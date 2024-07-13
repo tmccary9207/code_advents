@@ -69,3 +69,10 @@ due to the borrow checker.
 No more simple for loop logic with local variables this time. A comparator
 and tail call recursive logic is required to get to the solution. This
 was a bit more work to get done mentally but it runs like greased lightning.
+
+## Clojure
+
+This was a tad bit easier than Elixir as I didn't have to think of pattern
+matching when writing functions (just use `recur`). It is a lot shorter
+compared to the Elixir version even though the same immutable rules apply.
+However, it does take longer as it has to force lazy sequences.
