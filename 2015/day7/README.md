@@ -46,3 +46,7 @@ I tried to do what I did in Rust with Elixir and it works pretty well.
 ## CLOJURE
 
 With the solution style of Elixr/Rust the implementation in Clojure was relatively straight forward. I dare say it reads easy and runs pretty good unless performance golfing is your thing.
+
+## AWK
+
+This was a tad tricky at first because it turns into a multidimensional array for the data. Multidimensional iterating was a bit of a new thought for me on this problem but nothing impossible. The idea of clearing an array that'll be used again was something I hadn't encountered in AWK before. The best part was just doing straight bitwise operations and not having to worry about them turning negative.
