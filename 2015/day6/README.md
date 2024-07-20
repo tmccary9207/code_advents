@@ -59,3 +59,7 @@ This is kind of challenging actually. Elixir is immutable and the only way to ta
 This is more or less the same as the Elixir version. I wanted to keep the immutable style but obviously it would go faster with Java Arraylists.
 
 大分Elixirと同じです。ImmutableスタイルをキープしたいでしたがArrayListとかはもっと早いとおもいます。
+
+## AWK
+
+This doesn't seem fast more than likely due to the dynamic array assignment and iterrating. However, the logic is nice and simple as I can pattern match on the number of fields (toggle is 4 while turn on/off is 5). From there the dynamic assignment is pretty easy (default is zero). It seems slow but having to access a giant array like that in the Awk runtime probably the slow down.
