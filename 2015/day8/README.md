@@ -46,3 +46,7 @@ Algo just keeps working. Easy.
 ## CLOJURE
 
 Another algo save. Even in parenthesis town it works.
+
+## AWK
+
+I started out trying to use `match` but it ends up not counting as I would have thought. Instead, I use `gsub` which modifies the origin but tells me how many substitutions it made (which is as good as counting for this case). With that a simple math and thinking renders the answer to the problem. The solution is so short it almost makes me think it couldn't be correct.
