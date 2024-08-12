@@ -26,3 +26,12 @@ seem like this problem tests string handling in a language/runtime.
 ## Python3
 
 This was pretty straight forward as it is just like the Deno implementation.
+
+## Ruby
+
+Same style but it isn't that fast at all. Even with a forced for loop it
+wasn't faster. I believe this has to do with the way Ruby indexes strings
+and builds them. Considering it has to allot a ~36 million character
+long string by the end there has to be some bottle neck. I did try to do
+some other algos in IRB but I couldn't find a simple solution off the top
+of my head. I will have to think on a faster one.
