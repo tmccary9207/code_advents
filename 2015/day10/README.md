@@ -22,3 +22,7 @@ sequence didn't make too much sense to me. I did think of doing some reduction
 on the input string and some other functional methods but brute force
 itterative stuff seemed easier to me. Given the length of the input it does
 seem like this problem tests string handling in a language/runtime.
+
+## Python3
+
+This was pretty straight forward as it is just like the Deno implementation.
