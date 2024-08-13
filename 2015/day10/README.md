@@ -35,3 +35,9 @@ and builds them. Considering it has to allot a ~36 million character
 long string by the end there has to be some bottle neck. I did try to do
 some other algos in IRB but I couldn't find a simple solution off the top
 of my head. I will have to think on a faster one.
+
+## Go
+
+This has the same slowness as ruby. It ran slower oddly enough. I do believe
+it is the creation of strings and reparsing them. I will defintely have to
+use a different method for performance.
