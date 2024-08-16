@@ -47,3 +47,6 @@ well as any overhead from strings it is just an array with about ~18 million.
 This has the same slowness as ruby. It ran slower oddly enough. I do believe
 it is the creation of strings and reparsing them. I will defintely have to
 use a different method for performance.
+
+I took the more performant solution from the Ruby folder and did it in
+Go. The speed is on par with the Ruby solution.
