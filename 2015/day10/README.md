@@ -36,6 +36,12 @@ long string by the end there has to be some bottle neck. I did try to do
 some other algos in IRB but I couldn't find a simple solution off the top
 of my head. I will have to think on a faster one.
 
+After some thinking I decided to go with a paired array. I didn't think
+it would be faster as the runtime would have to go over the data still
+and while it is at it get a sub array. However, the number of items is half
+because of the fact all items are pairs. So instead of ~36 million chars as
+well as any overhead from strings it is just an array with about ~18 million.
+
 ## Go
 
 This has the same slowness as ruby. It ran slower oddly enough. I do believe
