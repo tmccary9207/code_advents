@@ -50,3 +50,8 @@ use a different method for performance.
 
 I took the more performant solution from the Ruby folder and did it in
 Go. The speed is on par with the Ruby solution.
+
+## Rust
+
+Used the same method as Ruby and Go. It runs just as fast I think. Easy
+enough.
