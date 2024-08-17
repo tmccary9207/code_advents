@@ -20,7 +20,7 @@ length of applying the sequence 40 times to the input.
 This wasn't too hard. Way easier than I had imagined because the look and say
 sequence didn't make too much sense to me. I did think of doing some reduction
 on the input string and some other functional methods but brute force
-itterative stuff seemed easier to me. Given the length of the input it does
+iterative stuff seemed easier to me. Given the length of the input it does
 seem like this problem tests string handling in a language/runtime.
 
 ## Python3
@@ -55,3 +55,11 @@ Go. The speed is on par with the Ruby solution.
 
 Used the same method as Ruby and Go. It runs just as fast I think. Easy
 enough.
+
+## Elixir
+
+This time I used pattern matching and a bit of internal recursion to
+get the exact number of iterations. The curve ball is that appending
+to a list in Elixir is slow so just add to the head of a list while
+building it then slap it into reverse (small time penalty). Pretty
+fun solution to write.
