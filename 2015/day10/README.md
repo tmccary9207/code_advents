@@ -63,3 +63,12 @@ get the exact number of iterations. The curve ball is that appending
 to a list in Elixir is slow so just add to the head of a list while
 building it then slap it into reverse (small time penalty). Pretty
 fun solution to write.
+
+## Clojure
+
+In Clojure there isn't the same kind of function pattern matching out
+of the box (there is a lib from what I searched). Anyways, I used the
+loop function with recur to go over the pairs for a number of iters.
+It looks kind of ugly but it gets the job done like the other solutions.
+I think doing both iteration and building in one function is the cause
+of the ugliness. I am sure that I could make it beautiful but it works.

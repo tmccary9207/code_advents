@@ -18,12 +18,10 @@ defmodule Aoc2015day10 do
   end
 
   def look_and_say([], 1, carry, count, output) do
-    # output ++ [[count, carry]]
     Enum.reverse([[count, carry] | output])
   end
 
   def look_and_say([], iterations, carry, count, output) when iterations > 1 do
-    # temp = output ++ [[count, carry]]
     temp = Enum.reverse([[count, carry] | output])
     [[carry | _] | _] = temp
     look_and_say(temp, iterations - 1, carry, 0, [])
@@ -34,16 +32,13 @@ defmodule Aoc2015day10 do
       if right == left do
         look_and_say(rest, iterations, carry, count + 2, output)
       else
-        # look_and_say(rest, iterations, right, 1, output ++ [[count + 1, carry]])
         look_and_say(rest, iterations, right, 1, [[count + 1, carry] | output])
       end
     else
-      # temp = output ++ [[count, carry]]
       temp = [[count, carry] | output]
       if right == left do
         look_and_say(rest, iterations, right, 2, temp)
       else
-        # look_and_say(rest, iterations, right, 1, temp ++ [[1, left]])
         look_and_say(rest, iterations, right, 1, [[1, left] | temp])
       end
     end
