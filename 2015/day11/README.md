@@ -28,6 +28,10 @@ a fresh code but it isn't very programming centric in my opinion.
 
 ## Python3
 
+I tried the more logic pattern approach for Python3. It works without countless
+iterations but I am sure there are cases where it fails. Seems that calling it
+a simple trick wasn't true. It was a great mental exercise none the less.
+
 ## Ruby
 
 ## Go
